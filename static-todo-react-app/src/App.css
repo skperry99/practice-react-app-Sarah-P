@@ -1,0 +1,19 @@
+.profileCard {
+  margin: 20px auto;
+  padding: 1em;
+  border-radius: 15px;
+  border-width: 3px;
+  border-style: double;
+  font-size: 1.1rem;
+  background-color: ghostwhite;
+  width: 350px;
+}
+
+.flexContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: darkblue;
+}
