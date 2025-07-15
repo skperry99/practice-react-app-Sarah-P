@@ -1,6 +1,7 @@
+import React from "react";
 import ProfileCard from "./ProfileCard";
 
-export default function ProfileContainer() {
+const ProfileContainer = () => {
   return (
     <div>
       <ProfileCard name="Alex" age= "25" bio="A software engineer who loves hiking."/>
@@ -10,3 +11,5 @@ export default function ProfileContainer() {
     </div>
   );
 }
+
+export default ProfileContainer;

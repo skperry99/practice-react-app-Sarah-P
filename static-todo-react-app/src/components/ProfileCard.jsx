@@ -1,9 +1,13 @@
-export default function ProfileCard(props) {
+import React from "react";
+
+const ProfileCard = ({ name, age, bio }) =>  {
   return (
-    <div className="profileCard">
-      <p> Name: {props.name} </p>
-      <p> Age: {props.age} </p>
-      <p> Bio: {props.bio} </p>
+    <div className="profile-card">
+      <p> Name: {name} </p>
+      <p> Age: {age} </p>
+      <p> Bio: {bio} </p>
     </div>
   );
 }
+
+export default ProfileCard;
